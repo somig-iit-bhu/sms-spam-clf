@@ -1,7 +1,6 @@
 import streamlit as st
 import pickle
 import string
-from nltk.corpus import stopwords
 import nltk
 import os
 nltk_data_path = os.path.join(os.path.dirname(__file__), 'nltk_data')
